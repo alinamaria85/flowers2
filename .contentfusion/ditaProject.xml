@@ -19,6 +19,8 @@
     <deliverable id="d-Flowers_PDF-1709545532923" name="Flowers PDF">
         <context idref="dRaIufPIodLMmQK"/>
         <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
+        </publication>
     </deliverable>
 </project>
